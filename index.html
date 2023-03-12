@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=
+    , initial-scale=1.0">
+    <title>Test1</title>
+</head>
+<body>
+    <form action="/action_page.php" onsubmit="myFunction()">
+        <fieldset>
+            <div class="alert alert-success">
+                <legend>Form</legend>
+                <label for="name">Fullname</label>
+                <input type="text" for="name">
+                <label for="email">Email</label>
+                <input type="email" for="email">
+                <label for="number">Phone Number</label>
+                <input type="number" for="number">
+                <input type="radio" id="male" name="sex" value="male">
+                <label for="male">Male</label> <br>
+                <input type="radio" id="famale" name="female" value="female">
+                <label for="famale">Female</label>
+                <input type="submit" value="Submit" onclick="onclickFunction()">
+            </div>
+        </fieldset>
+    </form>
+    <script> function myFunction() { alert("Success"); }
+    </script>
+</body>
+</html>
